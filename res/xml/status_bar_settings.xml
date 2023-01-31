@@ -120,4 +120,19 @@
         -->
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/qs_settings_title">
+
+        <lineageos.preference.LineageSystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="85"
+            lineage:interval="1"
+            lineage:units="%"
+            android:max="100"
+            android:min="1" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
